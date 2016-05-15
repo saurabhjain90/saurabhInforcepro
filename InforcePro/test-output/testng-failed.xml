@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InforcePro_TestSuite]">
+  <test name="TC003_Sorting(failed)">
+    <classes>
+      <class name="com.org.InforcePro.brokerui.testcases.TC001_Login">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.org.InforcePro.brokerui.testcases.TC001_Login -->
+      <class name="com.org.InforcePro.brokerui.testcases.TC003_Sorting">
+        <methods>
+          <include name="initialize"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.org.InforcePro.brokerui.testcases.TC003_Sorting -->
+      <class name="com.org.InforcePro.brokerui.testcases.TC002_Search">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.org.InforcePro.brokerui.testcases.TC002_Search -->
+    </classes>
+  </test> <!-- TC003_Sorting(failed) -->
+</suite> <!-- Failed suite [InforcePro_TestSuite] -->

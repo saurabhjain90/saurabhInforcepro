@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite allow-return-values="false"  data-provider-thread-count="10" group-by-instances="false" junit="false" name="InforcePro_TestSuite" parallel="false" preserve-order="true" thread-count="5" verbose="1">
+   <test  name="TC001_Login">
+      <classes>
+         <class name="com.org.InforcePro.brokerui.testcases.TC001_Login"/>
+      </classes>
+   </test>
+    <test name="TC002_Search" preserve-order="true">
+      <classes>
+         <class name="com.org.InforcePro.brokerui.testcases.TC002_Search"/>
+      </classes>
+   </test>
+    <test name="TC003_Sorting" >
+      <classes>
+         <class name="com.org.InforcePro.brokerui.testcases.TC003_Sorting"/>
+      </classes>
+   </test>
+</suite>
